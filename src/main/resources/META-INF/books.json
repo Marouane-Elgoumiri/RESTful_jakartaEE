@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Effective Java",
+        "author": "Joshua Bloch"
+    },
+    {
+        "id": 2,
+        "title": "Clean Code",
+        "author": "Robert C. Martin"
+    },
+    {
+        "id": 3,
+        "title": "Design Patterns",
+        "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides"
+    }
+]
