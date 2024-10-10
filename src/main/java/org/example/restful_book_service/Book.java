@@ -1,8 +1,14 @@
 package org.example.restful_book_service;
+import jakarta.json.bind.annotation.JsonbProperty;
 
 public class Book {
-    private int id;
+    @JsonbProperty("id")
+    private long id;
+
+    @JsonbProperty("title")
     private String title;
+
+    @JsonbProperty("author")
     private String author;
 
     public String getTitle() {
